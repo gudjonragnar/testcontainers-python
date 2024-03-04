@@ -68,6 +68,7 @@ clickhouse-driver = { version = "*", optional = true }
 google-cloud-pubsub = { version = ">=2", optional = true }
 kubernetes = { version = "*", optional = true }
 pyyaml = { version = "*", optional = true }
+kafka-python = { version = "*", optional = true }
 python-keycloak = { version = "*", optional = true }
 boto3 = { version = "*", optional = true }
 minio = { version = "*", optional = true }
@@ -113,6 +114,7 @@ sphinx = "^7.2.6"
 pg8000 = "*"
 twine = "^4.0.2"
 mypy = "1.7.1"
+kafka-python = "*"
 
 [[tool.poetry.source]]
 name = "PyPI"
